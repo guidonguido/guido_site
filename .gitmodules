@@ -1,0 +1,6 @@
+[submodule "academic-kickstart"]
+	path = academic-kickstart
+	url = https://github.com/sourcethemes/academic-kickstart.git
+[submodule "themes/academic"]
+	path = themes/academic
+	url = https://github.com/gcushen/hugo-academic.git
