@@ -106,6 +106,7 @@ plugins_js  = []
 ## Advanced options       ##
 ############################
 
+
 # Get user avatars from Gravatar.com? (true/false)
 gravatar = false
 
