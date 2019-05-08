@@ -19,7 +19,7 @@ authors = ["admin"]
 
   # Focal point (optional)
   # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
-  focal_point = "Bottom"
+  focal_point = "Center"
 
   # Show image only in page previews?
   preview_only = false
@@ -28,5 +28,5 @@ authors = ["admin"]
 +++
 
 # Informazioni 
-Il post contiene le foto più memorabili che verranno scattate ===Lunedì 13 Maggio 2019===
+Il post contiene le foto più memorabili che verranno scattate ```Lunedì 13 Maggio 2019```
 
