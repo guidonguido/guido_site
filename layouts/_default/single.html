@@ -14,14 +14,15 @@
     {{ partial "tags.html" . }}
 
     {{ if ne .Type "page" }}
-    {{if .Params.comments_show }}
-    
-    <p> Any comment?</p>
-    {{ partial "comments.html" . }}
-    
-
-    {{end}}
+      
       {{ partial "page_author.html" . }}
+      {{if .Params.comments_show }}
+      
+      <p> Any comment?</p>
+      {{ partial "comments.html" . }}
+      
+
+      {{end}}
       {{ $related := site.RegularPages.Related . | first 5 }}
       {{ with $related }}
       <div class="article-widget">
