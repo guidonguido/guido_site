@@ -5,13 +5,14 @@ summary = "You can express yor general opinion about me and my work in this page
 date = 2019-05-06T00:00:00Z
 draft = false
 
+comments_show = "true"
+
 [header]
 image = "featured.jpg"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = ["admin"]
 
-comments_show = "true"
 
 [image]
   # Caption (optional)
@@ -25,7 +26,3 @@ comments_show = "true"
 
 
 +++
-
-<div align="center">
-  <img src="featured.jpg" />
-</div>

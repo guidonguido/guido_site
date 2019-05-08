@@ -14,6 +14,13 @@
     {{ partial "tags.html" . }}
 
     {{ if ne .Type "page" }}
+    {{if .Params.comments_show }}
+    
+    <p> Any comment?</p>
+    {{ partial "comments.html" . }}
+    
+
+    {{end}}
       {{ partial "page_author.html" . }}
       {{ $related := site.RegularPages.Related . | first 5 }}
       {{ with $related }}
@@ -35,13 +42,6 @@
     </div>
     {{ end }}
 
-    {{if .Params.comments_show }}
-    
-    <p> Any comment?</p>
-    {{ partial "comments.html" . }}
-    
-
-    {{end}}
 
   </div>
 </article>
